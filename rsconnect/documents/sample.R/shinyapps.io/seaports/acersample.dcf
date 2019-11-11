@@ -1,0 +1,13 @@
+name: acersample
+title: acersample
+username:
+account: seaports
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1229851
+bundleId: 2437307
+url: https://seaports.shinyapps.io/acersample/
+when: 1569246981.8598
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|~$Acer report.xlsx|~$Closed call data - Jan 2018 till May 2019.xlsx|~Book2__8576.twbr|app.R|Book2.twb|D49A9100|Final_Data.csv|sample data.csv|sample1.R
