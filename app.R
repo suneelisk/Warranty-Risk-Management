@@ -203,7 +203,7 @@ server = shinyServer(function(input, output,session){
             HTML("<div id='error-box'>
                  Sorry, that's not the right username or password. Please, 
                  try again. If you continue to have problems,
-                 <a href='http://seaportai.com/contact-us/'>
+                 <a href='##'>
                  <u>Contact Us..</u></a>
                  </div>")
           }
@@ -329,12 +329,12 @@ server = shinyServer(function(input, output,session){
             #tags$style(type='text/css','#qqqq {background-color: #d2d3d4; color: #004264;font-size:120%}'),
             #tags$style(type='text/css','#qqqqq {background-color: #d2d3d4; color: #004264;font-size:120%}'),
             
-            tags$head(HTML("<title>SeaportAI Analytics</title> <link rel='icon' type='image/gif/png' href='t.png'>")),
+            tags$head(HTML("<title>Suneel Kumar</title> <link rel='icon' type='image/gif/png' href='t.png'>")),
             navbarPage(id="tabset",tags$li(class = "dropdown",
                                            tags$style(".navbar {min-height:100px }")
             ),
             #title = ,position = "fixed-top",selected = "Upload",inverse = TRUE,
-            title = tags$div(img(src="log.png","SeaportAI(Analytics|Robotics)", style="margin-top: -4px;margin-left: 30px;", height = 60)),position = "fixed-top",selected = "Upload",inverse = F,
+            title = tags$div(img(src="log.png","Company", style="margin-top: -4px;margin-left: 30px;", height = 60)),position = "fixed-top",selected = "Upload",inverse = F,
             
             tabPanel(title = "Upload",icon = icon("upload"),
                      
@@ -390,7 +390,7 @@ server = shinyServer(function(input, output,session){
                                             uiOutput("helptext"),
                                             br(),
                                             br(),
-                                            bsPopover(id="check",title = "",content = "Note: I accept the SeaportAI Terms & Conditions.. Show the Analyse button",placement = "right"),
+                                            bsPopover(id="check",title = "",content = "Note: I accept the Company Terms & Conditions.. Show the Analyse button",placement = "right"),
                                             tags$div(bsButton("reset", label = "Reset ?", icon =   icon("repeat",lib = "glyphicon"),block = F, style="danger",size = "small"),align="center"),
                                             
                                             
@@ -399,7 +399,7 @@ server = shinyServer(function(input, output,session){
                                             
                                             tags$div(class = "header", checked = NA,style="text-align:center;color:#929292;font-size:100%",
                                                      tags$tbody("Need Help ?"),
-                                                     tags$a(href = "http://seaportai.com/contact-us/", "Contact Us...", target="_blank")
+                                                     tags$a(href = "##, "Contact Us...", target="_blank")
                                             )
                               )
                        )
@@ -483,7 +483,7 @@ server = shinyServer(function(input, output,session){
                            downloadButton('downloadData2', 'Download data...'),br(),br(),br(),
                            addSpinner(DT::dataTableOutput("mainboard1"),spin = "bounce", color = "#E41A1C")),
                          
-                         tags$div(helpText(tags$a(href='http://www.seaportai.com',"- By SeaportAI",style="color:black", target="_blank"),style="text-align:center"),align="center")
+                         tags$div(helpText(tags$a(href='###',"- By Suneel",style="color:black", target="_blank"),style="text-align:center"),align="center")
                        )
                      )
                      
